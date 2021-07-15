@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+    <a href="https://github.com/neilrehani101" target="_blank" class="glassy">
+      <div class="content">
+        <div class="glassyH1"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+        voluptatibus vel tenetur amet saepe, magni inventore, expedita corporis
+        possimus necessitatibus dolore nisi maiores modi nihil minima quae
+        voluptas facere repudiandae neque adipisci aspernatur provident? Sunt
+        iure libero, quidem perspiciatis quod mollitia explicabo quasi, odio
+        veniam impedit sit. Aliquam animi fugit perspiciatis dolores? Veniam id
+        impedit saepe sint vitae? Aperiam, aliquid aliquam, excepturi enim odio
+        sint eius deserunt, atque quisquam cum totam quam magni architecto qui
+        consequatur ipsum sunt. Enim minima, ducimus esse, aspernatur pariatur
+        omnis eos maiores vero rem quae quidem cupiditate. Quibusdam
+        perspiciatis consequuntur ullam dolore quae deleniti inventore.
+      </p>
+    </div>
+
+    </a>
+  </body>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".glassy"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var options = {
+      strings: ["<h1>Amazing project created by <i>Neil Rehani</i></h1>", "<h1>A glass with hover animation!</h1><p>(click to open github)</p>"],
+      typeSpeed: 40,
+      backSpeed: 40
+    };
+
+    var typed = new Typed(".glassyH1", options);
+  </script>
+</html>
